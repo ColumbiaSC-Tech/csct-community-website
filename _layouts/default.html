@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+  	<div class="wrapper pb-8 mb-8">
+  		
+    
+    	{{ content }}
+
+		<div class="push"></div>
+
+  	</div>
+
+  	<footer class="footer text-center ">
+
+  		<div class="theme text-3xl md:text-5xl tracking-wide  font-sans font-hairline">Connect. Learn. Build.</div>
+  		<div class="copyright-bar bg-grey-light text-grey">Copyright © <script>document.write(new Date().getFullYear())</script> ColumbiaSC-Tech</div>
+  		
+  	</footer>
+
+  	{% include scripts.html %}
+  
+  	<div class="bg bg--right"></div>
+  	<div class="bg bg--left"></div>
+  </body>
+
+</html>
