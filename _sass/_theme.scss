@@ -22,8 +22,9 @@ html, body {
   position: relative;
 }
 
-.container {
-	padding-top: 4em;
+.container-top {
+	max-width: 40em;
+	padding: 3em 1em 0;
 }
 
 .bg {
